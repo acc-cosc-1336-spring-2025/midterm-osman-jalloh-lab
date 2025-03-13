@@ -6,7 +6,4 @@ def is_prime(n):
         if n % i == 0:
             return False
     return True
-# Test cases
-print(is_prime(4))  # Expected output: False
-print(is_prime(5))  # Expected output: True
-print(is_prime(11))  # Expected output: True
+
